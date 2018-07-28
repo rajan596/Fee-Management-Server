@@ -1,0 +1,30 @@
+{
+  "name": "feemanageserver",
+  "version": "1.0.0",
+  "description": "server to manage fee payments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajan596/Fee-Management-Server.git"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "Rajan Kasodariya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajan596/Fee-Management-Server/issues"
+  },
+  "homepage": "https://github.com/rajan596/Fee-Management-Server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "morgan": "^1.9.0",
+    "mysql": "^2.16.0",
+    "q": "^1.5.1"
+  }
+}
