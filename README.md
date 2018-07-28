@@ -1,3 +1,6 @@
+<a href='https://coveralls.io/github/rajan596/Fee-Management-Server?branch=master'><img src='https://coveralls.io/repos/github/rajan596/Fee-Management-Server/badge.svg?branch=master' alt='Coverage Status' /></a>
+
+
 # Fee-Management-Server
 Server to manage fee/utility payment
 
