@@ -3,6 +3,9 @@ const
     bodyParser      = require('body-parser'),
     morgan          = require('morgan'),
 
+    // routers
+    validateRouter  = require('./lib/routers/validate');
+
     app             = express();
 
 
@@ -11,6 +14,12 @@ function setMiddleWares(){
     
     // logs requests
     app.use(morgan('tiny'));  
+
+    // populates JSON body of request into req.body
+    app.use(bodyParser.json());  
+
+    // ROUTERS
+    app.use('/validate',validateRouter);
 }
 
 function startServer(){
