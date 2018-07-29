@@ -1,0 +1,8 @@
+{
+    "development" : {
+        "HOST"      : "localhost",
+        "DATABASE"  : "eduserver",
+        "USER"      : "root",
+        "PASSWORD"  : ""
+    }
+}

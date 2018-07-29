@@ -5,6 +5,7 @@ const
 
     // routers
     validateRouter  = require('./lib/routers/validate');
+    paymentRouter  = require('./lib/routers/payment');
 
     app             = express();
 
@@ -16,10 +17,11 @@ function setMiddleWares(){
     app.use(morgan('tiny'));  
 
     // populates JSON body of request into req.body
-    app.use(bodyParser.json());  
+    app.use(bodyParser.json());
 
     // ROUTERS
     app.use('/validate',validateRouter);
+    app.use('/payment',paymentRouter);
 }
 
 function startServer(){

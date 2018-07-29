@@ -40,6 +40,22 @@ CREATE TABLE `eduserver`.`transaction_details` (
 
 Validation:-
 
+Error codes:
+  100 : success
+  101 : Invalid Req Type
+  102 : Invalid Enrollment No
+
 Recharge:-
 
+Error codes:
+  100 : success
+  101 : Invalid Req Type
+  102 : Invalid Enrollment No
+  103 : Invalid Amount
+  104 : Duplicate txn id
+  105 : failed
+
 Statuscheck:-
+  100 : success
+  104 : Invalid Txn ID
+  105 : failed
