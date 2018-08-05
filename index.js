@@ -6,6 +6,7 @@ const
     // routers
     validateRouter  = require('./lib/routers/validate');
     paymentRouter  = require('./lib/routers/payment');
+    scRouter  = require('./lib/routers/statuscheck');
 
     app             = express();
 
@@ -22,6 +23,7 @@ function setMiddleWares(){
     // ROUTERS
     app.use('/validate',validateRouter);
     app.use('/payment',paymentRouter);
+    app.use('/statuscheck',scRouter);
 }
 
 function startServer(){
